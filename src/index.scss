@@ -90,6 +90,8 @@ h3,p{
 }
 
 .drawer{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 420px;
     height: 100%;
@@ -97,9 +99,15 @@ h3,p{
     background: #FFFFFF;
     box-shadow: -10px 4px 24px rgba(0,0,0,0.1);
     padding: 30px;
+
+
     .items{
+        flex: 1;
      overflow: auto;
+     margin-bottom: 40px;
     }
+
+
     h2{
         margin: 0;
      
